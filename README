@@ -1,0 +1,17 @@
+- I am starting to study NLP, ML etc from scratch and this repo will be used to save some useful references.
+- I want to share with you my experiences.
+- Feel free to open an issue and contribute with anything.
+- Do not expect the most efficient code. Sometimes I will put focus in clear code instead an efficient solution. And sometimes I am just a human learning how to be efficient :)
+
+# jupyter notebook to learn
+
+We can use just a terminal or IDE to study, but as I want to make it very clear, most of the code will be under jupyter notebook files. Is just easy to most of the people run. Also you can load those files with Google Colab, without install anything.
+
+Maybe more advanced code will be in python files.
+
+
+# docker/ 
+Easy way to get a working a jupyter notebook environment. Also a good alternative to have some libraries not ported yet to apple silicon processors. Is not the most efficient way, but is excellent to start.
+
+# python_libraries/
+Just a good list of python libraries to setup in your environment and eventually use to learn.

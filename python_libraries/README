@@ -1,0 +1,2 @@
+# libraries to study nlp
+numpy scipy matplotlib scikit-learn xgboost pandas nltk seaborn unidecode gensim spacy polyglot
