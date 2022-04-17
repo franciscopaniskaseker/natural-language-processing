@@ -1,0 +1,16 @@
+A Docker image to help people to have jupyter notebook to study without have to manually install libraries.
+
+Also this is a good alternative to have some libraries, like xgboost, running in Apple silicon cpu (m1); the performance is not the best, but for study purposes, it is ok!
+
+To build the docker image:
+docker buildx build --platform=linux/amd64 --tag test:1 .
+
+To run the docker image:
+docker run -it -p 8888:8888 --cpuset-cpus="0-7" --memory=6G --platform=linux/amd64 -v /Users/apterix/Cursos:/home/jovyan/ test:1
+
+Notes:
+- Change the memory limit (6G) and the number of cpus (0-7) to something that you want
+- Change "/Users/apterix/Cursos" with the absolut path of your workspace to study. When you close this docker, you will loose all of your data, unless you store in somewhere
+- After instantiate the docker image, it will provide a http link to open the jupyter notebook
+- For apple m1 users, is possible that 0-7 will not give the 8 CPUs. I recommend to setup the Docker DMG tool and configure there to provide all CPUs. Is not a light software, but will make possible to use all cpu cores.
+- Again, you will not have the best performance (mainly apple users), but is an alternative to use some libraries that are not compiled yet to ARM or backported to apple silicon cpu
