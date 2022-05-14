@@ -21,4 +21,7 @@ text: http://spacy.pythonhumanities.com/intro.html
 youtube: https://www.youtube.com/watch?v=HJy11kOlgvk
 github: https://github.com/laxmimerit/Resume-and-CV-Summarization-and-Parsing-with-Spacy-in-Python
 
-## 
+# prodigy references
+
+## Training a NAMED ENTITY RECOGNITION MODEL with Prodigy and Transfer Learning
+https://www.youtube.com/watch?v=59BKHO_xBPA
