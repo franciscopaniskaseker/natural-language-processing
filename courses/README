@@ -32,6 +32,9 @@ text: http://spacy.pythonhumanities.com/intro.html
 youtube: https://www.youtube.com/watch?v=HJy11kOlgvk
 github: https://github.com/laxmimerit/Resume-and-CV-Summarization-and-Parsing-with-Spacy-in-Python
 
+# (free) named entity recognition (NER) playlist by Python Tutorial for Digital Humanities
+youtube: https://www.youtube.com/playlist?list=PL2VXyKi-KpYs1bSnT8bfMFyGS-wMcjesM
+
 # prodigy references
 
 ## (free) Training a NAMED ENTITY RECOGNITION MODEL with Prodigy and Transfer Learning by Ines (one of the core developers of spaCy)
